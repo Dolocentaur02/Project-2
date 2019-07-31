@@ -1,0 +1,1823 @@
+{
+    "meta": {
+        "view": {
+            "id": "mve5-ycx7",
+            "name": "Value of Recyclables Disposed",
+            "attribution": "Washington Department of Ecology",
+            "averageRating": 0,
+            "category": "Natural Resources & Environment",
+            "createdAt": 1493246810,
+            "description": "This indicator tracks the lost market value of recyclable materials when they are disposed in landfills and incinerators instead of being recycled. The market value is calculated by applying commodity prices to estimates of recyclable material disposed.",
+            "displayType": "table",
+            "downloadCount": 1527,
+            "hideFromCatalog": false,
+            "hideFromDataJson": false,
+            "indexUpdatedAt": 1517525078,
+            "newBackend": true,
+            "numberOfComments": 0,
+            "oid": 25918266,
+            "provenance": "official",
+            "publicationAppendEnabled": false,
+            "publicationDate": 1493828400,
+            "publicationGroup": 14171135,
+            "publicationStage": "published",
+            "rowClass": "",
+            "rowsUpdatedAt": 1493827935,
+            "rowsUpdatedBy": "nnds-2jxn",
+            "tableId": 14185928,
+            "totalTimesRated": 0,
+            "viewCount": 156,
+            "viewLastModified": 1517525036,
+            "viewType": "tabular",
+            "approvals": [
+                {
+                    "reviewedAt": 1493828400,
+                    "reviewedAutomatically": true,
+                    "state": "approved",
+                    "submissionId": 745055,
+                    "submissionObject": "public_audience_request",
+                    "submissionOutcome": "change_audience",
+                    "submittedAt": 1493828400,
+                    "workflowId": 2106,
+                    "submissionDetails": {
+                        "permissionType": "READ"
+                    },
+                    "submissionOutcomeApplication": {
+                        "failureCount": 0,
+                        "status": "success"
+                    },
+                    "submitter": {
+                        "id": "nnds-2jxn",
+                        "displayName": "Gauri Chitre"
+                    }
+                }
+            ],
+            "columns": [
+                {
+                    "id": -1,
+                    "name": "sid",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":sid",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "id",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":id",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "position",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":position",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": 300844219,
+                    "name": "Year",
+                    "dataTypeName": "text",
+                    "fieldName": "year",
+                    "position": 1,
+                    "renderTypeName": "text",
+                    "tableColumnId": 46731606,
+                    "width": 117,
+                    "cachedContents": {
+                        "largest": "2014",
+                        "non_null": 6,
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "2009",
+                                "count": 20
+                            },
+                            {
+                                "item": "2010",
+                                "count": 19
+                            },
+                            {
+                                "item": "2011",
+                                "count": 18
+                            },
+                            {
+                                "item": "2012",
+                                "count": 17
+                            },
+                            {
+                                "item": "2013",
+                                "count": 16
+                            },
+                            {
+                                "item": "2014",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "2009"
+                    },
+                    "format": {
+                        "precisionStyle": "standard",
+                        "noCommas": "false",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844220,
+                    "name": "Paper",
+                    "dataTypeName": "number",
+                    "fieldName": "paper",
+                    "position": 2,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731607,
+                    "width": 114,
+                    "cachedContents": {
+                        "largest": "37473067",
+                        "non_null": 6,
+                        "average": "28716526.66666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "15777311",
+                                "count": 20
+                            },
+                            {
+                                "item": "32464222",
+                                "count": 19
+                            },
+                            {
+                                "item": "37473067",
+                                "count": 18
+                            },
+                            {
+                                "item": "29455338",
+                                "count": 17
+                            },
+                            {
+                                "item": "30650474",
+                                "count": 16
+                            },
+                            {
+                                "item": "26478748",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "15777311",
+                        "sum": "172299160"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844221,
+                    "name": "Cardboard",
+                    "dataTypeName": "number",
+                    "fieldName": "cardboard",
+                    "position": 3,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731608,
+                    "width": 144,
+                    "cachedContents": {
+                        "largest": "30921406",
+                        "non_null": 6,
+                        "average": "23921607.5",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "12906337",
+                                "count": 20
+                            },
+                            {
+                                "item": "27490684",
+                                "count": 19
+                            },
+                            {
+                                "item": "30921406",
+                                "count": 18
+                            },
+                            {
+                                "item": "24825597",
+                                "count": 17
+                            },
+                            {
+                                "item": "25771305",
+                                "count": 16
+                            },
+                            {
+                                "item": "21614316",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "12906337",
+                        "sum": "143529645"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844222,
+                    "name": "Newspaper",
+                    "dataTypeName": "number",
+                    "fieldName": "newspaper",
+                    "position": 4,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731609,
+                    "width": 161,
+                    "cachedContents": {
+                        "largest": "6551661",
+                        "non_null": 6,
+                        "average": "4794919.166666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "2870973",
+                                "count": 20
+                            },
+                            {
+                                "item": "4973539",
+                                "count": 19
+                            },
+                            {
+                                "item": "6551661",
+                                "count": 18
+                            },
+                            {
+                                "item": "4629741",
+                                "count": 17
+                            },
+                            {
+                                "item": "4879169",
+                                "count": 16
+                            },
+                            {
+                                "item": "4864432",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "2870973",
+                        "sum": "28769515"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844223,
+                    "name": "Mixed Grade Paper",
+                    "dataTypeName": "number",
+                    "fieldName": "mixed_grade_paper",
+                    "position": 5,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731610,
+                    "width": 205,
+                    "cachedContents": {
+                        "non_null": 0,
+                        "null": 6,
+                        "sum": "0"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844224,
+                    "name": "Plastic",
+                    "dataTypeName": "number",
+                    "fieldName": "plastic",
+                    "position": 6,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731611,
+                    "width": 125,
+                    "cachedContents": {
+                        "largest": "108619934",
+                        "non_null": 6,
+                        "average": "85470518.33333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "58638180",
+                                "count": 20
+                            },
+                            {
+                                "item": "84786326",
+                                "count": 19
+                            },
+                            {
+                                "item": "108619934",
+                                "count": 18
+                            },
+                            {
+                                "item": "91947300",
+                                "count": 17
+                            },
+                            {
+                                "item": "78462827",
+                                "count": 16
+                            },
+                            {
+                                "item": "90368543",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "58638180",
+                        "sum": "512823110"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844225,
+                    "name": "PET Bottles",
+                    "dataTypeName": "number",
+                    "fieldName": "pet_bottles",
+                    "position": 7,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731612,
+                    "width": 146,
+                    "cachedContents": {
+                        "largest": "20725556",
+                        "non_null": 6,
+                        "average": "14037002.16666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "6908922",
+                                "count": 20
+                            },
+                            {
+                                "item": "12469999",
+                                "count": 19
+                            },
+                            {
+                                "item": "20725556",
+                                "count": 18
+                            },
+                            {
+                                "item": "16695020",
+                                "count": 17
+                            },
+                            {
+                                "item": "13639240",
+                                "count": 16
+                            },
+                            {
+                                "item": "13783276",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "6908922",
+                        "sum": "84222013"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844226,
+                    "name": "HDPE Bottles",
+                    "dataTypeName": "number",
+                    "fieldName": "hdpe_bottles",
+                    "position": 8,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731613,
+                    "width": 160,
+                    "cachedContents": {
+                        "largest": "13242987",
+                        "non_null": 6,
+                        "average": "10488516.66666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "6389461",
+                                "count": 20
+                            },
+                            {
+                                "item": "10107139",
+                                "count": 19
+                            },
+                            {
+                                "item": "12474028",
+                                "count": 18
+                            },
+                            {
+                                "item": "11004013",
+                                "count": 17
+                            },
+                            {
+                                "item": "9713472",
+                                "count": 16
+                            },
+                            {
+                                "item": "13242987",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "6389461",
+                        "sum": "62931100"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844227,
+                    "name": "Bags and Film",
+                    "dataTypeName": "number",
+                    "fieldName": "bags_and_film",
+                    "position": 9,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731614,
+                    "width": 162,
+                    "cachedContents": {
+                        "largest": "75420349",
+                        "non_null": 6,
+                        "average": "60944999.16666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "45339797",
+                                "count": 20
+                            },
+                            {
+                                "item": "62209187",
+                                "count": 19
+                            },
+                            {
+                                "item": "75420349",
+                                "count": 18
+                            },
+                            {
+                                "item": "64248266",
+                                "count": 17
+                            },
+                            {
+                                "item": "55110116",
+                                "count": 16
+                            },
+                            {
+                                "item": "63342280",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "45339797",
+                        "sum": "365669995"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844228,
+                    "name": "Metal",
+                    "dataTypeName": "number",
+                    "fieldName": "metal",
+                    "position": 10,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731615,
+                    "width": 124,
+                    "cachedContents": {
+                        "largest": "84603704",
+                        "non_null": 6,
+                        "average": "70643228.5",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "53234746",
+                                "count": 20
+                            },
+                            {
+                                "item": "72452821",
+                                "count": 19
+                            },
+                            {
+                                "item": "84603704",
+                                "count": 18
+                            },
+                            {
+                                "item": "79305167",
+                                "count": 17
+                            },
+                            {
+                                "item": "66034077",
+                                "count": 16
+                            },
+                            {
+                                "item": "68228856",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "53234746",
+                        "sum": "423859371"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844229,
+                    "name": "Aluminum Cans",
+                    "dataTypeName": "number",
+                    "fieldName": "aluminum_cans",
+                    "position": 11,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731616,
+                    "width": 177,
+                    "cachedContents": {
+                        "largest": "19830053",
+                        "non_null": 6,
+                        "average": "16799467",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "12009418",
+                                "count": 20
+                            },
+                            {
+                                "item": "16047311",
+                                "count": 19
+                            },
+                            {
+                                "item": "18042362",
+                                "count": 18
+                            },
+                            {
+                                "item": "16317020",
+                                "count": 17
+                            },
+                            {
+                                "item": "18550638",
+                                "count": 16
+                            },
+                            {
+                                "item": "19830053",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "12009418",
+                        "sum": "100796802"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844230,
+                    "name": "Other Non-Ferrous Metals",
+                    "dataTypeName": "number",
+                    "fieldName": "other_non_ferrous_metals",
+                    "position": 12,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731617,
+                    "width": 249,
+                    "cachedContents": {
+                        "largest": "28906778",
+                        "non_null": 6,
+                        "average": "25098364.33333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "22538083",
+                                "count": 20
+                            },
+                            {
+                                "item": "26308546",
+                                "count": 19
+                            },
+                            {
+                                "item": "28906778",
+                                "count": 18
+                            },
+                            {
+                                "item": "25397860",
+                                "count": 17
+                            },
+                            {
+                                "item": "23858391",
+                                "count": 16
+                            },
+                            {
+                                "item": "23580528",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "22538083",
+                        "sum": "150590186"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844231,
+                    "name": "Tin Cans",
+                    "dataTypeName": "number",
+                    "fieldName": "tin_cans",
+                    "position": 13,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731618,
+                    "width": 138,
+                    "cachedContents": {
+                        "largest": "2168912",
+                        "non_null": 6,
+                        "average": "1713252.666666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "734014",
+                                "count": 20
+                            },
+                            {
+                                "item": "1321959",
+                                "count": 19
+                            },
+                            {
+                                "item": "1773026",
+                                "count": 18
+                            },
+                            {
+                                "item": "2161690",
+                                "count": 17
+                            },
+                            {
+                                "item": "2119915",
+                                "count": 16
+                            },
+                            {
+                                "item": "2168912",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "734014",
+                        "sum": "10279516"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844232,
+                    "name": "Other Ferrous Metals",
+                    "dataTypeName": "number",
+                    "fieldName": "other_ferrous_metals",
+                    "position": 14,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731619,
+                    "width": 215,
+                    "cachedContents": {
+                        "largest": "35881538",
+                        "non_null": 6,
+                        "average": "27032144.33333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "17953231",
+                                "count": 20
+                            },
+                            {
+                                "item": "28775004",
+                                "count": 19
+                            },
+                            {
+                                "item": "35881538",
+                                "count": 18
+                            },
+                            {
+                                "item": "35428597",
+                                "count": 17
+                            },
+                            {
+                                "item": "21505133",
+                                "count": 16
+                            },
+                            {
+                                "item": "22649363",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "17953231",
+                        "sum": "162192866"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844233,
+                    "name": "Glass",
+                    "dataTypeName": "number",
+                    "fieldName": "glass",
+                    "position": 15,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731620,
+                    "width": 110,
+                    "cachedContents": {
+                        "largest": "2297899",
+                        "non_null": 6,
+                        "average": "1710936.5",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "2297899",
+                                "count": 20
+                            },
+                            {
+                                "item": "2265496",
+                                "count": 19
+                            },
+                            {
+                                "item": "1759801",
+                                "count": 18
+                            },
+                            {
+                                "item": "1286527",
+                                "count": 17
+                            },
+                            {
+                                "item": "1312777",
+                                "count": 16
+                            },
+                            {
+                                "item": "1343119",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "1286527",
+                        "sum": "10265619"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844234,
+                    "name": "Clear Glass Containers",
+                    "dataTypeName": "number",
+                    "fieldName": "clear_glass_containers",
+                    "position": 16,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731621,
+                    "width": 218,
+                    "cachedContents": {
+                        "largest": "1646958",
+                        "non_null": 6,
+                        "average": "1092749.333333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "1646958",
+                                "count": 20
+                            },
+                            {
+                                "item": "1623734",
+                                "count": 19
+                            },
+                            {
+                                "item": "1155602",
+                                "count": 18
+                            },
+                            {
+                                "item": "695147",
+                                "count": 17
+                            },
+                            {
+                                "item": "709330",
+                                "count": 16
+                            },
+                            {
+                                "item": "725725",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "695147",
+                        "sum": "6556496"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844235,
+                    "name": "Brown Glass Containers",
+                    "dataTypeName": "number",
+                    "fieldName": "brown_glass_containers",
+                    "position": 17,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731622,
+                    "width": 248,
+                    "cachedContents": {
+                        "largest": "468253",
+                        "non_null": 6,
+                        "average": "411961.1666666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "468253",
+                                "count": 20
+                            },
+                            {
+                                "item": "461650",
+                                "count": 19
+                            },
+                            {
+                                "item": "408721",
+                                "count": 18
+                            },
+                            {
+                                "item": "369778",
+                                "count": 17
+                            },
+                            {
+                                "item": "377322",
+                                "count": 16
+                            },
+                            {
+                                "item": "386043",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "369778",
+                        "sum": "2471767"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844236,
+                    "name": "Green Glass Containers",
+                    "dataTypeName": "number",
+                    "fieldName": "green_glass_containers",
+                    "position": 18,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731623,
+                    "width": 224,
+                    "cachedContents": {
+                        "largest": "231351",
+                        "non_null": 6,
+                        "average": "206226",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "182688",
+                                "count": 20
+                            },
+                            {
+                                "item": "180112",
+                                "count": 19
+                            },
+                            {
+                                "item": "195478",
+                                "count": 18
+                            },
+                            {
+                                "item": "221603",
+                                "count": 17
+                            },
+                            {
+                                "item": "226124",
+                                "count": 16
+                            },
+                            {
+                                "item": "231351",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "180112",
+                        "sum": "1237356"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844237,
+                    "name": "Consumer Products",
+                    "dataTypeName": "number",
+                    "fieldName": "consumer_products",
+                    "position": 19,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731624,
+                    "width": 203,
+                    "cachedContents": {
+                        "largest": "9376464",
+                        "non_null": 6,
+                        "average": "6858109.333333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "6779748",
+                                "count": 20
+                            },
+                            {
+                                "item": "8705398",
+                                "count": 19
+                            },
+                            {
+                                "item": "9376464",
+                                "count": 18
+                            },
+                            {
+                                "item": "8276248",
+                                "count": 17
+                            },
+                            {
+                                "item": "4037305",
+                                "count": 16
+                            },
+                            {
+                                "item": "3973493",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "3973493",
+                        "sum": "41148656"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844239,
+                    "name": "E-Waste",
+                    "dataTypeName": "number",
+                    "fieldName": "e_waste",
+                    "position": 20,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731625,
+                    "width": 132,
+                    "cachedContents": {
+                        "largest": "9376464",
+                        "non_null": 6,
+                        "average": "6852371",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "6779748",
+                                "count": 20
+                            },
+                            {
+                                "item": "8705398",
+                                "count": 19
+                            },
+                            {
+                                "item": "9376464",
+                                "count": 18
+                            },
+                            {
+                                "item": "8276248",
+                                "count": 17
+                            },
+                            {
+                                "item": "4019538",
+                                "count": 16
+                            },
+                            {
+                                "item": "3956830",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "3956830",
+                        "sum": "41114226"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844241,
+                    "name": "Textiles",
+                    "dataTypeName": "number",
+                    "fieldName": "textiles",
+                    "position": 21,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731626,
+                    "width": 125,
+                    "cachedContents": {
+                        "largest": "17767",
+                        "non_null": 6,
+                        "average": "5738.333333333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "0",
+                                "count": 20
+                            },
+                            {
+                                "item": "17767",
+                                "count": 19
+                            },
+                            {
+                                "item": "16663",
+                                "count": 18
+                            }
+                        ],
+                        "smallest": "0",
+                        "sum": "34430"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844243,
+                    "name": "Value of Recyclables disposed ($)",
+                    "dataTypeName": "number",
+                    "fieldName": "value_of_recyclables_disposed",
+                    "position": 22,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731627,
+                    "width": 302,
+                    "cachedContents": {
+                        "largest": "241832969",
+                        "non_null": 6,
+                        "average": "193399319",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "136727884",
+                                "count": 20
+                            },
+                            {
+                                "item": "200674263",
+                                "count": 19
+                            },
+                            {
+                                "item": "241832969",
+                                "count": 18
+                            },
+                            {
+                                "item": "210270580",
+                                "count": 17
+                            },
+                            {
+                                "item": "180497459",
+                                "count": 16
+                            },
+                            {
+                                "item": "190392759",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "136727884",
+                        "sum": "1160395914"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844246,
+                    "name": "Value of Recyclables disposed (million $)",
+                    "dataTypeName": "number",
+                    "fieldName": "value_of_recyclables_disposed_million",
+                    "position": 23,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731628,
+                    "width": 337,
+                    "cachedContents": {
+                        "largest": "241.8",
+                        "non_null": 6,
+                        "average": "193.4",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "136.7",
+                                "count": 20
+                            },
+                            {
+                                "item": "200.7",
+                                "count": 19
+                            },
+                            {
+                                "item": "241.8",
+                                "count": 18
+                            },
+                            {
+                                "item": "210.3",
+                                "count": 17
+                            },
+                            {
+                                "item": "180.5",
+                                "count": 16
+                            },
+                            {
+                                "item": "190.4",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "136.7",
+                        "sum": "1160.4"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "0",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844247,
+                    "name": "Total Recyclable Materials Disposed (tons)",
+                    "dataTypeName": "number",
+                    "fieldName": "total_recyclable_materials_disposed_tons",
+                    "position": 24,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731629,
+                    "width": 351,
+                    "cachedContents": {
+                        "largest": "1419060",
+                        "non_null": 6,
+                        "average": "1384877.166666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "1419060",
+                                "count": 20
+                            },
+                            {
+                                "item": "1399049",
+                                "count": 19
+                            },
+                            {
+                                "item": "1346625",
+                                "count": 18
+                            },
+                            {
+                                "item": "1352480",
+                                "count": 17
+                            },
+                            {
+                                "item": "1380076",
+                                "count": 16
+                            },
+                            {
+                                "item": "1411973",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "1346625",
+                        "sum": "8309263"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 300844248,
+                    "name": "Weighted Average Price of Recyclables Disposed ($/ton)",
+                    "dataTypeName": "number",
+                    "fieldName": "weighted_average_price_of_recyclables_disposed_ton",
+                    "position": 25,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731630,
+                    "width": 427,
+                    "cachedContents": {
+                        "largest": "179.6",
+                        "non_null": 6,
+                        "average": "140.0833333333333",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "96.4",
+                                "count": 20
+                            },
+                            {
+                                "item": "143.4",
+                                "count": 19
+                            },
+                            {
+                                "item": "179.6",
+                                "count": 18
+                            },
+                            {
+                                "item": "155.5",
+                                "count": 17
+                            },
+                            {
+                                "item": "130.8",
+                                "count": 16
+                            },
+                            {
+                                "item": "134.8",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "96.4",
+                        "sum": "840.5"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "2",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844249,
+                    "name": "Population (Washington state)",
+                    "dataTypeName": "number",
+                    "fieldName": "population_washington_state",
+                    "position": 26,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731631,
+                    "width": 264,
+                    "cachedContents": {
+                        "largest": "6968170",
+                        "non_null": 6,
+                        "average": "6804830",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "6668200",
+                                "count": 20
+                            },
+                            {
+                                "item": "6724540",
+                                "count": 19
+                            },
+                            {
+                                "item": "6767900",
+                                "count": 18
+                            },
+                            {
+                                "item": "6817770",
+                                "count": 17
+                            },
+                            {
+                                "item": "6882400",
+                                "count": 16
+                            },
+                            {
+                                "item": "6968170",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "6668200",
+                        "sum": "40828980"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 300844250,
+                    "name": "Value of Recyclable materials disposed ($/person/year)",
+                    "dataTypeName": "number",
+                    "fieldName": "value_of_recyclable_materials_disposed_person_year",
+                    "position": 27,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731632,
+                    "width": 415,
+                    "cachedContents": {
+                        "largest": "35.73",
+                        "non_null": 6,
+                        "average": "28.41",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "20.50",
+                                "count": 20
+                            },
+                            {
+                                "item": "29.84",
+                                "count": 19
+                            },
+                            {
+                                "item": "35.73",
+                                "count": 18
+                            },
+                            {
+                                "item": "30.84",
+                                "count": 17
+                            },
+                            {
+                                "item": "26.23",
+                                "count": 16
+                            },
+                            {
+                                "item": "27.32",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "20.50",
+                        "sum": "170.46"
+                    },
+                    "format": {
+                        "precisionStyle": "currency",
+                        "humane": "false",
+                        "currencyStyle": "USD",
+                        "precision": "2",
+                        "align": "right"
+                    }
+                },
+                {
+                    "id": 300844251,
+                    "name": "Recyclable materials disposed (pounds/person)",
+                    "dataTypeName": "number",
+                    "fieldName": "recyclable_materials_disposed_pounds_person",
+                    "position": 28,
+                    "renderTypeName": "number",
+                    "tableColumnId": 46731633,
+                    "width": 365,
+                    "cachedContents": {
+                        "largest": "426",
+                        "non_null": 6,
+                        "average": "407.1666666666667",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "426",
+                                "count": 20
+                            },
+                            {
+                                "item": "416",
+                                "count": 19
+                            },
+                            {
+                                "item": "398",
+                                "count": 18
+                            },
+                            {
+                                "item": "397",
+                                "count": 17
+                            },
+                            {
+                                "item": "401",
+                                "count": 16
+                            },
+                            {
+                                "item": "405",
+                                "count": 15
+                            }
+                        ],
+                        "smallest": "397",
+                        "sum": "2443"
+                    },
+                    "format": {
+                        "precisionStyle": "standard",
+                        "noCommas": "false",
+                        "precision": "2",
+                        "align": "right"
+                    }
+                }
+            ],
+            "grants": [
+                {
+                    "inherited": false,
+                    "type": "viewer",
+                    "flags": [
+                        "public"
+                    ]
+                }
+            ],
+            "metadata": {
+                "rdfSubject": "0",
+                "rdfClass": "",
+                "custom_fields": {
+                    "Temporal": {
+                        "Posting Frequency": "annual",
+                        "Period of Time": "2009-2014"
+                    },
+                    "Notes": {
+                        "1. ": "Copyright information for the Washington Department of Ecology: https://ecology.wa.gov/About-us/Accountability-transparency/Our-website/Copyright-information",
+                        "2. ": "Link to the Ecology Website:  https://ecology.wa.gov/",
+                        "3. ": "Based on front-end market prices in current dollar value of common household recyclable materials when delivered to recycler, uncompacted when available.  Sources:  www.wastenews.com; www.scrapindex.com; www.globalscrap.com; 2009 Washington Statewide Waste Characterization Study; annual reports from landfills and incinerators (Washington Department of Ecology); OFM population data."
+                    }
+                },
+                "rowIdentifier": "0",
+                "availableDisplayTypes": [
+                    "table",
+                    "fatrow",
+                    "page"
+                ],
+                "rowLabel": "",
+                "renderTypeConfig": {
+                    "visible": {
+                        "table": true
+                    }
+                }
+            },
+            "owner": {
+                "id": "nnds-2jxn",
+                "displayName": "Gauri Chitre",
+                "profileImageUrlLarge": "/api/users/nnds-2jxn/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/nnds-2jxn/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/nnds-2jxn/profile_images/TINY",
+                "screenName": "Gauri Chitre",
+                "type": "interactive"
+            },
+            "query": {},
+            "rights": [
+                "read"
+            ],
+            "tableAuthor": {
+                "id": "nnds-2jxn",
+                "displayName": "Gauri Chitre",
+                "profileImageUrlLarge": "/api/users/nnds-2jxn/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/nnds-2jxn/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/nnds-2jxn/profile_images/TINY",
+                "screenName": "Gauri Chitre",
+                "type": "interactive"
+            },
+            "tags": [
+                "ecology",
+                "waste 2 resources",
+                "recycling"
+            ],
+            "flags": [
+                "default",
+                "restorable",
+                "restorePossibleForType"
+            ]
+        }
+    },
+    "data": [
+        [
+            "row-gqfw-fjmb~8nup",
+            "00000000-0000-0000-3FB4-1897A290EEE8",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2010",
+            "32464222",
+            "27490684",
+            "4973539",
+            null,
+            "84786326",
+            "12469999",
+            "10107139",
+            "62209187",
+            "72452821",
+            "16047311",
+            "26308546",
+            "1321959",
+            "28775004",
+            "2265496",
+            "1623734",
+            "461650",
+            "180112",
+            "8705398",
+            "8705398",
+            "0",
+            "200674263",
+            "200.7",
+            "1399049",
+            "143.4",
+            "6724540",
+            "29.84",
+            "416"
+        ],
+        [
+            "row-ks83~349b.pbgj",
+            "00000000-0000-0000-FDE5-4E6B82AB8256",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2011",
+            "37473067",
+            "30921406",
+            "6551661",
+            null,
+            "108619934",
+            "20725556",
+            "12474028",
+            "75420349",
+            "84603704",
+            "18042362",
+            "28906778",
+            "1773026",
+            "35881538",
+            "1759801",
+            "1155602",
+            "408721",
+            "195478",
+            "9376464",
+            "9376464",
+            "0",
+            "241832969",
+            "241.8",
+            "1346625",
+            "179.6",
+            "6767900",
+            "35.73",
+            "398"
+        ],
+        [
+            "row-ru93~e8v5~2vn3",
+            "00000000-0000-0000-03AF-778ED92F8FB1",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2012",
+            "29455338",
+            "24825597",
+            "4629741",
+            null,
+            "91947300",
+            "16695020",
+            "11004013",
+            "64248266",
+            "79305167",
+            "16317020",
+            "25397860",
+            "2161690",
+            "35428597",
+            "1286527",
+            "695147",
+            "369778",
+            "221603",
+            "8276248",
+            "8276248",
+            "0",
+            "210270580",
+            "210.3",
+            "1352480",
+            "155.5",
+            "6817770",
+            "30.84",
+            "397"
+        ],
+        [
+            "row-2jyy.qwqk.scxm",
+            "00000000-0000-0000-4DFA-2323C6787CDB",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2013",
+            "30650474",
+            "25771305",
+            "4879169",
+            null,
+            "78462827",
+            "13639240",
+            "9713472",
+            "55110116",
+            "66034077",
+            "18550638",
+            "23858391",
+            "2119915",
+            "21505133",
+            "1312777",
+            "709330",
+            "377322",
+            "226124",
+            "4037305",
+            "4019538",
+            "17767",
+            "180497459",
+            "180.5",
+            "1380076",
+            "130.8",
+            "6882400",
+            "26.23",
+            "401"
+        ],
+        [
+            "row-h6dp~df95.uttx",
+            "00000000-0000-0000-588F-B3DC6601BD95",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2014",
+            "26478748",
+            "21614316",
+            "4864432",
+            null,
+            "90368543",
+            "13783276",
+            "13242987",
+            "63342280",
+            "68228856",
+            "19830053",
+            "23580528",
+            "2168912",
+            "22649363",
+            "1343119",
+            "725725",
+            "386043",
+            "231351",
+            "3973493",
+            "3956830",
+            "16663",
+            "190392759",
+            "190.4",
+            "1411973",
+            "134.8",
+            "6968170",
+            "27.32",
+            "405"
+        ],
+        [
+            "row-fhnz_r36w_9h6q",
+            "00000000-0000-0000-D951-750850C9D16E",
+            0,
+            1541717349,
+            null,
+            1541717349,
+            null,
+            "{ }",
+            "2009",
+            "15777311",
+            "12906337",
+            "2870973",
+            null,
+            "58638180",
+            "6908922",
+            "6389461",
+            "45339797",
+            "53234746",
+            "12009418",
+            "22538083",
+            "734014",
+            "17953231",
+            "2297899",
+            "1646958",
+            "468253",
+            "182688",
+            "6779748",
+            "6779748",
+            "0",
+            "136727884",
+            "136.7",
+            "1419060",
+            "96.4",
+            "6668200",
+            "20.50",
+            "426"
+        ]
+    ]
+}
