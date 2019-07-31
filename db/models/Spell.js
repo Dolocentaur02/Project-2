@@ -6,6 +6,6 @@ const spellSchema = new mongoose.Schema({
         effect: String
 });
 
-const Spell = mongoose.model("spells", spellSchema);
+const Spell = mongoose.model("Spell", spellSchema);
 
 module.exports = Spell;

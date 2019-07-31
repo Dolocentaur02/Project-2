@@ -1,6 +1,6 @@
 const mongoose = require("../connection");
 
-const CharacterSchema = new mongoose.Schema({
+const characterSchema = new mongoose.Schema({
     name: String,
     role: String,
     ministryOfMagic: Boolean,
@@ -8,6 +8,6 @@ const CharacterSchema = new mongoose.Schema({
     species: String
 });
 
-const Character = mongoose.model("Kingdom", CharacterSchema);
+const Character = mongoose.model("character", characterSchema);
 
 module.exports = Character;
