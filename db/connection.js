@@ -1,14 +1,13 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-mongoose.Promise = Promise
+// mongoose.Promise = Promise;
 
-mongoose.connect('mongodb:https://api.estated.com/property/v3?token=hOv1aH7pcGPcv8iEkNr93rAIxPhMF7', { useNewUrlParser: true })
-.then((conn) => {
-	console.log(`connected to mongodb on ${conn.connections[0].name} db`)
-})
-.catch(err => {
-	console.error(err)
-})
+const mongoURI = "mongodb://localhost/potter-api";
 
+mongoose.connect(mongoURI, { useNewUrlParser: true })
+	// .then(instance =>
+	// 	console.log(`Connected to db: ${instance.connections[0].name}`)
+	// )
+	// .catch(err => console.log("Connection Failed.", err));
 
-module.exports = mongoose
+module.exports = mongoose;
