@@ -4,6 +4,10 @@ const app = express();
 
 app.use(parser.json())
 
+app.use("/character", require("../routes/character"))
+app.use("/house", require("../routes/house"))
+app.use("/spell", require("../routes/spell"))
+
 app.get("/", (request, response) => {
   response.send("Hello World");
 });

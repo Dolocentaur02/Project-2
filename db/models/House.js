@@ -8,9 +8,9 @@ const house = new Schema({
     houseGhost: String,
     founder: String,
     school: String,
-    
     values: [String],
     colors: [String]
+
 });
 
 const House = mongoose.model("House", house);

@@ -7,7 +7,12 @@ const character = new Schema({
     role: String,
     ministryOfMagic: Boolean,
     bloodStatus: String,
-    species: String
+    species: String,
+
+    House: {
+        type: Schema.Types.ObjectId,
+        ref: "House"
+    }
 });
 
 const Character = mongoose.model("character", character);
