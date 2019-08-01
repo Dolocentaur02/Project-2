@@ -10,13 +10,22 @@ module.exports = {
   show: function (req, res) {
     Character.findById(req.params.id).then(character => res.json(character));
   },
+  // update: function (req, res) {
+  //   Character.findOneAndUpdate(
+  //     { _id: req.params.id },
+  //     {$set: { "name": req.body.name }}).then(character => res.json(character))
+  // },
+
   update: function (req, res) {
     Character.findOneAndUpdate(
       { _id: req.params.id },
-      { $set: { "name": req.body.name }}) .then(character => res.json(character))
+      { $set: { "name": req.body.name } }).then(character => res.json(character)
+
+      )
   },
+
   destroy: function (req, res) {
-    Character.findByIdAndRemove({_id: req.params.id}).then(character =>
+    Character.findByIdAndRemove({ _id: req.params.id }).then(character =>
       res.send(character));
   }
 }
