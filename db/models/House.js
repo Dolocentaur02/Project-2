@@ -1,6 +1,7 @@
 const mongoose = require("../connection");
+const Schema = mongoose.Schema
 
-const houseSchema = new mongoose.Schema({
+const house = new Schema({
     name: String,
     mascot: String,
     headOfHouse: String,
@@ -12,6 +13,6 @@ const houseSchema = new mongoose.Schema({
     colors: [String]
 });
 
-const House = mongoose.model("House", houseSchema);
+const House = mongoose.model("House", house);
 
 module.exports = House
