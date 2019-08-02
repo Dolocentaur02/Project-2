@@ -13,7 +13,7 @@ const house = new Schema({
 
     members: [{
         type: Schema.Types.ObjectId,
-        ref: "Characters"
+        ref: "Character"
     }]
 
 });

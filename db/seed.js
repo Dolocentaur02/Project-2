@@ -8,25 +8,16 @@ const Character = require("../db/models/Character");
 const House = require("../db/models/House");
 const Spell = require("../db/models/Spell");
 
-// let charhouse = character.map(charhouse =>{
-//     // console.log(charhouse.house)
-//     return charhouse.house;
-// })
-
-
-let charHouse = []
-console.log(charHouse)
-
-house.forEach(house => {
-   
-    // console.log(house.members)
-    charHouse.push(house.members)
-    
-
- })
-
-
-
+ //find all characters in the model
+Character.find({})
+.then(allchar => {
+    allchar.forEach(eachChar =>
+        House.findOne({"Characters":eachChar.house})
+        .then(charhouse=>{
+            eachChar.houseref = charhouse._id;
+            eachChar.save();
+        }))
+})
 
 Character.deleteMany({}).then(x=>Character.create(character));
 House.deleteMany({}).then(x=>House.create(house));
