@@ -10,11 +10,6 @@ module.exports = {
   show: function (req, res) {
     Character.findById(req.params.id).then(character => res.json(character));
   },
-  // update: function (req, res) {
-  //   Character.findOneAndUpdate(
-  //     { _id: req.params.id },
-  //     {$set: { "name": req.body.name }}).then(character => res.json(character))
-  // },
 
   update: function (req, res) {
     Character.findOneAndUpdate(
