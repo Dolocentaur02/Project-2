@@ -8,6 +8,7 @@ const character = new Schema({
     ministryOfMagic: Boolean,
     bloodStatus: String,
     species: String,
+    house: String,
 
     House: {
         type: Schema.Types.ObjectId,
