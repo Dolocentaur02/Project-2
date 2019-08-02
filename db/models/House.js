@@ -9,7 +9,12 @@ const house = new Schema({
     founder: String,
     school: String,
     values: [String],
-    colors: [String]
+    colors: [String],
+
+    members: [{
+        type: Schema.Types.ObjectId,
+        ref: "Characters"
+    }]
 
 });
 
