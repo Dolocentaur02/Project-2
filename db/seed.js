@@ -9,16 +9,16 @@ const House = require("../db/models/House");
 const Spell = require("../db/models/Spell");
 
 //find all characters in the model
-Character.find({})
-    .then(allchar => {
-        allchar.forEach(eachChar =>
-            //find each character with the property house
-            House.findOne({ "Character": eachChar.house })
-                .then(charhouse => {
-                    eachChar.houseref = charhouse._id,
-                    eachChar.save();
-                }))
-    })
+// Character.find({})
+//     .then(allchar => {
+//         allchar.forEach(eachChar =>
+//             //find each character with the property house
+//             House.findOne({ "Character": eachChar.house })
+//                 .then(charhouse => {
+//                     eachChar.houseref = charhouse._id,
+//                     eachChar.save();
+//                 }))
+//     })
 
 Character.deleteMany({}).then(x => Character.create(character));
 House.deleteMany({}).then(x => House.create(house));

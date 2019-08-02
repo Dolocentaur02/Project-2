@@ -8,10 +8,9 @@ app.use("/character", require("../routes/character"))
 app.use("/house", require("../routes/house"))
 app.use("/spell", require("../routes/spell"))
 
-app.get("/", (request, response) => {
-  response.send("Hello World");
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
 });
 
-app.listen(4000, () => {
-  console.log("app listening on port 4000");
-});
