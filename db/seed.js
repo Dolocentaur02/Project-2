@@ -8,20 +8,21 @@ const Character = require("../db/models/Character");
 const House = require("../db/models/House");
 const Spell = require("../db/models/Spell");
 
- //find all characters in the model
+//find all characters in the model
 Character.find({})
-.then(allchar => {
-    allchar.forEach(eachChar =>
-        House.findOne({"Characters":eachChar.house})
-        .then(charhouse=>{
-            eachChar.houseref = charhouse._id;
-            eachChar.save();
-        }))
-})
+    .then(allchar => {
+        allchar.forEach(eachChar =>
+            //find each character with the property house
+            House.findOne({ "Character": eachChar.house })
+                .then(charhouse => {
+                    eachChar.houseref = charhouse._id,
+                    eachChar.save();
+                }))
+    })
 
-Character.deleteMany({}).then(x=>Character.create(character));
-House.deleteMany({}).then(x=>House.create(house));
-Spell.deleteMany({}).then(x=>Spell.create(spells))
+Character.deleteMany({}).then(x => Character.create(character));
+House.deleteMany({}).then(x => House.create(house));
+Spell.deleteMany({}).then(x => Spell.create(spells))
 
 
 

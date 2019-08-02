@@ -10,7 +10,7 @@ const character = new Schema({
     species: String,
     house: String,
 
-    House: {
+    houseref: {
         type: Schema.Types.ObjectId,
         ref: "House"
     }
