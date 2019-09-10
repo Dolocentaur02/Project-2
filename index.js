@@ -3,6 +3,10 @@ const parser = require("body-parser");
 const app = express();
 
 app.use(parser.json())
+app.get("/", (req, res) => {
+  res.redirect("/character/");
+});
+
 
 app.use("/character", require("./routes/character"));
 app.use("/house", require("./routes/house"));
